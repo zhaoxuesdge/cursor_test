@@ -1,0 +1,45 @@
+# =====================
+# Python virtual env
+# =====================
+.venv/
+
+# =====================
+# Bytecode / caches
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =====================
+# Common build / packaging artifacts
+# =====================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+wheelhouse/
+
+# =====================
+# Test / tooling caches
+# =====================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mccache/
+.pytype/
+
+# =====================
+# Jupyter / notebooks checkpoints
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Logs (optional but common)
+# =====================
+*.log
